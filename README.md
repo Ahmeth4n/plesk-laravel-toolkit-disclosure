@@ -6,5 +6,5 @@ It has the domainId value of the "domain" parameter in the SSH Public Key Genera
 {"status":"error","msg":"Failed to get public key for the domain 'testdomain.com': The user does not have access to domain \"testdomain.com."}
 ```
 
-returns a response. Information disclosure starts right here. This disclosure allows you to list all domains on that server by enumerate the domainId parameter. The response shouldn't have shown us that it belongs to **test.com**.
+returns a response. Information disclosure starts right here. This disclosure allows you to list all domains on that server by enumerate the domainId parameter. The response shouldn't have shown us that it belongs to **testdomain.com**.
 
